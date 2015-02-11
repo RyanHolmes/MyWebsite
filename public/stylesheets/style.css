@@ -1,38 +1,69 @@
 
-
-a {
-  color: #00B7FF;
-}
-
-
 .bg {
   position: fixed; 
   top: 0; 
   left: 0; 
   width: 100%;
   height: auto;
+  z-index: 0;
 }
 
 .container-full{
 	width: 100%;
+	opacity: 1;
+	z-index: 1;
+	background: rgba(164, 0, 0, 1);
+	z-index: 1;
 }
 
 .red{
 	color: rgb(120,0,0);
 }
 
-.footer{
-	/*position:fixed;*/
-    height:50px;
-    background:#be0000;
+.kindafooter{
+	height:200px;
+    background:#a40000; /*candy apple*/
     width:100%;
-    margin-bottom:0px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+     z-index: 10;
+
 }
 
-html { 
-  background: url("https://nickandjenhill.files.wordpress.com/2013/02/university-collegesoldierstower-uoft.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.footer{
+	position:fixed;
+    height:75px;
+    background:#8b0000; /*maroon*/
+    width:100%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    /*margin-top: 0px;*/
+}
+
+.fa-github-square{
+	color:white;
+}
+.fa-github-square:hover{
+	color:#F80012;
+}
+
+.fa-facebook-official{
+	color:white;
+}
+
+.fa-linkedin-square{
+	color:white;
+}
+
+.fa-facebook-official:hover{
+	color:#F80012;
+}
+
+.fa-linkedin-square:hover{
+	color:#F80012;
 }
