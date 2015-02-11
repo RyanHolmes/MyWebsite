@@ -1,8 +1,38 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+
 
 a {
   color: #00B7FF;
+}
+
+
+.bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: auto;
+}
+
+.container-full{
+	width: 100%;
+}
+
+.red{
+	color: rgb(120,0,0);
+}
+
+.footer{
+	/*position:fixed;*/
+    height:50px;
+    background:#be0000;
+    width:100%;
+    margin-bottom:0px;
+}
+
+html { 
+  background: url("https://nickandjenhill.files.wordpress.com/2013/02/university-collegesoldierstower-uoft.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
